@@ -163,6 +163,24 @@ const BookYear = styled.div`
   color: #666;
 `;
 
+const StylizedQuote = styled.span`
+  font-size: 2.2rem;
+  color: #b48a78;
+  font-family: 'Special Elite', 'Courier New', Courier, monospace;
+  vertical-align: top;
+  line-height: 1;
+  margin-right: 0.18em;
+`;
+
+const StylizedCloseQuote = styled.span`
+  font-size: 2.2rem;
+  color: #b48a78;
+  font-family: 'Special Elite', 'Courier New', Courier, monospace;
+  vertical-align: bottom;
+  line-height: 1;
+  margin-left: 0.18em;
+`;
+
 const JimDescription = styled.div`
   font-size: 1.08rem;
   margin-bottom: 1.2rem;
@@ -238,7 +256,7 @@ function App() {
           <Header>A Novel Reading List</Header>
           <SubHeader>by James J. Mihnerick (1939&#8209;2019)</SubHeader>
           <Quote>
-            "I read most of these books more than twenty years ago, but they are still fresh in my mind. This perhaps is as good a benchmark for literary greatness as any."
+            "I read most of these books more than twenty years ago, but they are still fresh in my mind. This perhaps is as good a benchmark for literary greatness as any." - Jim
           </Quote>
           <BookList>
             {books
@@ -251,8 +269,12 @@ function App() {
                     <BookAuthor>{book.author}</BookAuthor>
                     <BookYear>{book.published_year}</BookYear>
                     <JimDescription>
-                      {book.jim_description.split('\n').map((para, idx) => (
-                        <p key={idx}>{para}</p>
+                      {book.jim_description.split('\n').map((para, idx, arr) => (
+                        <p key={idx}>
+                          {idx === 0 && <StylizedQuote>&ldquo;</StylizedQuote>}
+                          {para}
+                          {idx === arr.length - 1 && <StylizedCloseQuote>&rdquo;</StylizedCloseQuote>}
+                        </p>
                       ))}
                     </JimDescription>
                     <Genre>Genre: {book.genre}</Genre>
