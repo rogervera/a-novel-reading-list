@@ -21,7 +21,7 @@ const AppContainer = styled.div`
 const Sidebar = styled.nav`
   width: 220px;
   background: #181818;
-  padding: 32px 0 32px 0;
+  padding: 32px 0 32px 24px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
