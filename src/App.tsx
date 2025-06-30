@@ -156,6 +156,14 @@ const Genre = styled.div`
   font-style: italic;
 `;
 
+const Quote = styled.div`
+  font-size: 1.08rem;
+  color: #e0e0e0;
+  margin-bottom: 2.2rem;
+  font-style: italic;
+  max-width: 700px;
+`;
+
 const scrollToBook = (id: string) => {
   const el = document.getElementById(id);
   if (el) {
@@ -187,7 +195,10 @@ function App() {
         </Sidebar>
         <MainContent>
           <Header>A Novel Reading List</Header>
-          <SubHeader>by James J. Mihnerick (1939-2019)</SubHeader>
+          <SubHeader>by James J. Mihnerick (1939&#8209;2019)</SubHeader>
+          <Quote>
+            "I read most of these books more than twenty years ago, but they are still fresh in my mind. This perhaps is as good a benchmark for literary greatness as any." - Jim
+          </Quote>
           <BookList>
             {books
               .sort((a, b) => a.jim_order - b.jim_order)
@@ -198,8 +209,8 @@ function App() {
                     <BookTitle>{book.title}</BookTitle>
                     <BookAuthor>{book.author}</BookAuthor>
                     <BookYear>{book.published_year}</BookYear>
-                    <JimDescription>{book.jim_description}</JimDescription>
-                    <Genre>{book.genre}</Genre>
+                    <JimDescription>"{book.jim_description}"</JimDescription>
+                    <Genre>Genre: {book.genre}</Genre>
                   </BookInfo>
                 </BookCard>
               ))}
