@@ -5,7 +5,8 @@ import { books } from './booksData';
 const GlobalStyle = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
   body {
-    background: #111;
+    background: linear-gradient(rgba(20,8,10,0.65), rgba(20,8,10,0.65)), #2d1012 url('https://www.transparenttextures.com/patterns/wood-pattern.png');
+    background-repeat: repeat;
     color: #222;
     font-family: 'Special Elite', 'Courier New', Courier, monospace;
     margin: 0;
@@ -60,7 +61,6 @@ const SidebarLink = styled.a`
 const MainContent = styled.main`
   flex: 1;
   padding: 40px 40px 40px 40px;
-  background: #111;
 `;
 
 const Header = styled.h1`
@@ -72,7 +72,7 @@ const Header = styled.h1`
 
 const SubHeader = styled.div`
   font-size: 1.2rem;
-  color: #e0e0e0;
+  color: #fff;
   margin-bottom: 2.5rem;
   font-family: inherit;
 `;
@@ -166,7 +166,7 @@ const Genre = styled.div`
 
 const Quote = styled.div`
   font-size: 1.08rem;
-  color: #e0e0e0;
+  color: #fff;
   margin-bottom: 2.2rem;
   font-style: italic;
   max-width: 700px;
