@@ -1,46 +1,30 @@
-# Getting Started with Create React App
+# A Novel Reading List
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to **A Novel Reading List by the late James J. Mihnerick**!
 
-## Available Scripts
+This website is a tribute to Jim Mihnerick's love of great stories and his knack for picking books that make you think, laugh, and maybe even cry. Here you'll find a handpicked selection of novels, each with a personal note from Jim himself. Whether you're looking for a classic, a coming-of-age tale, or something a little off the beaten path, you're in the right place.
 
-In the project directory, you can run:
+## 📚 The Books on This List
 
-### `npm start`
+Here are the books featured on the site:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. **The Catcher in the Rye** by J.D. Salinger
+2. **The Queen's Gambit** by Walter Tevis
+3. **All Quiet on the Western Front** by Erich Maria Remarque
+4. **Sister Carrie** by Theodore Dreiser
+5. **Tender is the Night** by F. Scott Fitzgerald
+6. **Liza of Lambeth** by W. Somerset Maugham
+7. **Look Homeward, Angel** by Thomas Wolfe
+8. **Leaving Las Vegas** by John O'Brien
+9. **Rabbit, Run** by John Updike
+10. **Ironweed** by William Kennedy
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Each book comes with Jim's own insight of the story.
 
-### `npm test`
+## How to Use This Site
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Just browse, click on a book, and enjoy Jim's take. Maybe you'll find your next favorite read!
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+*This site was created to share Jim's reading picks with the world. Happy reading.*
