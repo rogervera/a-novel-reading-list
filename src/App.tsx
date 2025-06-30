@@ -31,7 +31,7 @@ const Sidebar = styled.nav`
   height: 100vh;
   overflow-y: auto;
 
-  @media (max-width: 777px) {
+  @media (max-width: 950px) {
     display: none;
   }
 `;
@@ -61,6 +61,14 @@ const SidebarLink = styled.a`
 const MainContent = styled.main`
   flex: 1;
   padding: 40px 40px 40px 40px;
+  @media (max-width: 950px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 700px;
+    width: 100%;
+  }
 `;
 
 const Header = styled.h1`
@@ -102,7 +110,7 @@ const BookCard = styled.section`
   border: 1.5px solid #e6ddc4;
   box-shadow: 0 4px 18px 0 rgba(60,40,10,0.10), 0 1.5px 0 #e6ddc4 inset;
 
-  @media (max-width: 777px) {
+  @media (max-width: 950px) {
     flex-direction: column;
     align-items: center;
     padding: 96px 12px 88px 12px;
@@ -119,7 +127,7 @@ const CoverImage = styled.img`
   border-radius: 4px;
   box-shadow: 0 32px 96px 0 rgba(60,40,10,0.45), 0 8px 48px 0 rgba(60,40,10,0.28), 0 1.5px 0 #e6ddc4 inset;
   background: #fff;
-  @media (max-width: 777px) {
+  @media (max-width: 950px) {
     margin-bottom: 0;
     display: block;
     margin-left: auto;
@@ -138,7 +146,7 @@ const BookTitle = styled.h2`
   margin: 0 0 0.3rem 0;
   font-family: inherit;
   
-  @media (max-width: 777px) {
+  @media (max-width: 950px) {
     padding-top: 18px;
   }
 `;
