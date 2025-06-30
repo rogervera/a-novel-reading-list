@@ -86,20 +86,26 @@ const BookList = styled.div`
 const BookCard = styled.section`
   background: #fdf6e3;
   color: #222;
-  border-radius: 8px;
+  border-radius: 10px;
   box-shadow: 0 2px 12px rgba(0,0,0,0.08);
-  padding: 32px 24px 24px 24px;
+  padding: 64px 32px 56px 32px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   gap: 32px;
   font-family: inherit;
   max-width: 700px;
+  -webkit-mask-image: url('data:image/svg+xml;utf8,<svg width="100%25" height="100%25" viewBox="0 0 100 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0,5 Q5,0 10,5 T20,5 T30,5 T40,5 T50,5 T60,5 T70,5 T80,5 T90,5 T100,5 L100,95 Q95,100 90,95 T80,95 T70,95 T60,95 T50,95 T40,95 T30,95 T20,95 T10,95 T0,95 Z" fill="white"/></svg>');
+  -webkit-mask-size: 100% 100%;
+  mask-image: url('data:image/svg+xml;utf8,<svg width="100%25" height="100%25" viewBox="0 0 100 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0,5 Q5,0 10,5 T20,5 T30,5 T40,5 T50,5 T60,5 T70,5 T80,5 T90,5 T100,5 L100,95 Q95,100 90,95 T80,95 T70,95 T60,95 T50,95 T40,95 T30,95 T20,95 T10,95 T0,95 Z" fill="white"/></svg>');
+  mask-size: 100% 100%;
+  border: 1.5px solid #e6ddc4;
+  box-shadow: 0 4px 18px 0 rgba(60,40,10,0.10), 0 1.5px 0 #e6ddc4 inset;
 
   @media (max-width: 700px) {
     flex-direction: column;
     align-items: center;
-    padding: 24px 8px 16px 8px;
+    padding: 40px 12px 36px 12px;
     gap: 20px;
   }
 `;
