@@ -161,6 +161,7 @@ const JimDescription = styled.div`
   color: #222;
   p {
     margin: 0;
+    line-height: 1.5em;
     text-indent: 2em;
   }
 `;
