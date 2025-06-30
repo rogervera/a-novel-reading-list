@@ -208,6 +208,13 @@ const Quote = styled.div`
   line-height: 1.5em;
 `;
 
+const StylizedParenthesis = styled.span`
+  font-size: 0.95rem;
+  color: #e0c9b0;
+  font-style: italic;
+  margin-left: 0.5em;
+`;
+
 const GoToTopSidebarItem = styled(SidebarItem)`
   margin-top: 48px;
 `;
@@ -256,7 +263,8 @@ function App() {
           <Header>A Novel Reading List</Header>
           <SubHeader>by James J. Mihnerick (1939&#8209;2019)</SubHeader>
           <Quote>
-            "I read most of these books more than twenty years ago, but they are still fresh in my mind. This perhaps is as good a benchmark for literary greatness as any." - Jim
+            "I read most of these books more than twenty years ago, but they are still fresh in my mind. This perhaps is as good a benchmark for literary greatness as any."
+            <StylizedParenthesis> - Jim (July 4th, 2006)</StylizedParenthesis>
           </Quote>
           <BookList>
             {books
