@@ -159,6 +159,10 @@ const JimDescription = styled.div`
   font-size: 1.08rem;
   margin-bottom: 1.2rem;
   color: #222;
+  p {
+    margin: 0;
+    text-indent: 2em;
+  }
 `;
 
 const Genre = styled.div`
@@ -236,7 +240,11 @@ function App() {
                     <BookTitle>{book.title}</BookTitle>
                     <BookAuthor>{book.author}</BookAuthor>
                     <BookYear>{book.published_year}</BookYear>
-                    <JimDescription>"{book.jim_description}"</JimDescription>
+                    <JimDescription>
+                      {book.jim_description.split('\n').map((para, idx) => (
+                        <p key={idx}>{para}</p>
+                      ))}
+                    </JimDescription>
                     <Genre>Genre: {book.genre}</Genre>
                   </BookInfo>
                 </BookCard>
