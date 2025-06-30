@@ -115,7 +115,7 @@ const CoverImage = styled.img`
   width: 100%;
   height: auto;
   border-radius: 4px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+  box-shadow: 0 32px 96px 0 rgba(60,40,10,0.45), 0 8px 48px 0 rgba(60,40,10,0.28), 0 1.5px 0 #e6ddc4 inset;
   background: #fff;
   @media (max-width: 700px) {
     margin-bottom: 0;
