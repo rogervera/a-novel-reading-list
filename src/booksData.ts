@@ -18,7 +18,7 @@ export const books: Book[] = [
     jim_order: 1,
     genre: 'Coming-of-age',
     published_year: 1951,
-    cover_image: 'https://m.media-amazon.com/images/I/91fQEUwFMyL._SL1500_.jpg'
+    cover_image: 'book-covers/the-catcher-in-the-rye.jpg'
   },
   {
     title: "The Queen's Gambit",
@@ -28,7 +28,7 @@ export const books: Book[] = [
     jim_order: 2,
     genre: 'Coming-of-age',
     published_year: 1983,
-    cover_image: 'https://upload.wikimedia.org/wikipedia/en/d/db/TheQueensGambit.jpg'
+    cover_image: 'book-covers/the-queens-gambit.jpg'
   },
   {
     title: 'All Quiet on the Western Front',
@@ -38,7 +38,7 @@ export const books: Book[] = [
     jim_order: 3,
     genre: 'War',
     published_year: 1929,
-    cover_image: 'https://m.media-amazon.com/images/I/A10qs3nOKZL._SL1500_.jpg'
+    cover_image: 'book-covers/all-quiet-on-the-western-front.jpg'
   },
   {
     title: 'Sister Carrie',
@@ -48,7 +48,7 @@ export const books: Book[] = [
     jim_order: 4,
     genre: 'Literary Realism',
     published_year: 1900,
-    cover_image: 'https://upload.wikimedia.org/wikipedia/commons/e/eb/Sister.carrie.cover.jpg'
+    cover_image: 'book-covers/sister-carrie.jpg'
   },
   {
     title: 'Tender is the Night',
@@ -58,7 +58,7 @@ export const books: Book[] = [
     jim_order: 5,
     genre: 'Tragedy',
     published_year: 1934,
-    cover_image: 'https://upload.wikimedia.org/wikipedia/commons/2/25/Tender_Is_the_Night_%281934_1st_ed_dust_jacket%29.jpg'
+    cover_image: 'book-covers/tender-is-the-night.jpg'
   },
   {
     title: 'Liza of Lambeth',
@@ -68,7 +68,7 @@ export const books: Book[] = [
     jim_order: 6,
     genre: 'Literary Fiction',
     published_year: 1897,
-    cover_image: 'https://upload.wikimedia.org/wikipedia/commons/0/0d/Liza_of_Lambeth_Front_cover.jpg'
+    cover_image: 'book-covers/liza-of-lambeth.jpg'
   },
   {
     title: 'Look Homeward, Angel',
@@ -78,7 +78,7 @@ export const books: Book[] = [
     jim_order: 7,
     genre: 'Semi-autobiographical Coming-of-age',
     published_year: 1929,
-    cover_image: 'https://cdn11.bigcommerce.com/s-yzgoj/images/stencil/1280x1280/products/1628232/2286067/apig7fvua__90728.1626720675.jpg'
+    cover_image: 'book-covers/look-homeward-angel.jpg'
   },
   {
     title: 'Leaving Las Vegas',
@@ -88,7 +88,7 @@ export const books: Book[] = [
     jim_order: 8,
     genre: 'Semi-autobiographical',
     published_year: 1990,
-    cover_image: 'https://pictures.abebooks.com/isbn/9780922820122-us.jpg'
+    cover_image: 'book-covers/leaving-las-vegas.jpg'
   },
   {
     title: 'Rabbit, Run',
@@ -98,7 +98,7 @@ export const books: Book[] = [
     jim_order: 9,
     genre: 'Psychological Fiction',
     published_year: 1960,
-    cover_image: 'https://pictures.abebooks.com/inventory/31297760074.jpg'
+    cover_image: 'book-covers/rabbit-run.jpg'
   },
   {
     title: 'Ironweed',
@@ -108,6 +108,6 @@ export const books: Book[] = [
     jim_order: 10,
     genre: 'Tragedy',
     published_year: 1983,
-    cover_image: 'https://pictures.abebooks.com/inventory/md/md20075030535.jpg'
+    cover_image: 'book-covers/ironweed.jpg'
   }
 ]; 
