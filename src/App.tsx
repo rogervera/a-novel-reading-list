@@ -3,10 +3,11 @@ import styled, { createGlobalStyle } from 'styled-components';
 import { books } from './booksData';
 
 const GlobalStyle = createGlobalStyle`
+  @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
   body {
     background: #111;
     color: #222;
-    font-family: 'Courier New', Courier, 'Lucida Console', monospace;
+    font-family: 'Special Elite', 'Courier New', Courier, monospace;
     margin: 0;
     padding: 0;
   }
@@ -28,6 +29,10 @@ const Sidebar = styled.nav`
   top: 0;
   height: 100vh;
   overflow-y: auto;
+
+  @media (max-width: 700px) {
+    display: none;
+  }
 `;
 
 const SidebarList = styled.ul`
@@ -54,7 +59,7 @@ const SidebarLink = styled.a`
 
 const MainContent = styled.main`
   flex: 1;
-  padding: 40px 0 40px 40px;
+  padding: 40px 40px 40px 40px;
   background: #111;
 `;
 
