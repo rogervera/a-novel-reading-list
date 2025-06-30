@@ -170,6 +170,10 @@ const Quote = styled.div`
   max-width: 700px;
 `;
 
+const GoToTopSidebarItem = styled(SidebarItem)`
+  margin-top: 48px;
+`;
+
 const scrollToBook = (id: string) => {
   const el = document.getElementById(id);
   if (el) {
@@ -197,6 +201,17 @@ function App() {
                 </SidebarLink>
               </SidebarItem>
             ))}
+            <GoToTopSidebarItem>
+              <SidebarLink
+                href="#top"
+                onClick={e => {
+                  e.preventDefault();
+                  window.scrollTo({ top: 0, behavior: 'smooth' });
+                }}
+              >
+                Go to Top
+              </SidebarLink>
+            </GoToTopSidebarItem>
           </SidebarList>
         </Sidebar>
         <MainContent>
