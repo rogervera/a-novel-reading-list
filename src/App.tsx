@@ -90,6 +90,13 @@ const BookCard = styled.section`
   gap: 32px;
   font-family: inherit;
   max-width: 700px;
+
+  @media (max-width: 700px) {
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 8px 16px 8px;
+    gap: 20px;
+  }
 `;
 
 const CoverImage = styled.img`
@@ -99,6 +106,12 @@ const CoverImage = styled.img`
   border-radius: 4px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.10);
   background: #fff;
+  @media (max-width: 700px) {
+    margin-bottom: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 `;
 
 const BookInfo = styled.div`
