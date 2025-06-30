@@ -137,6 +137,10 @@ const BookTitle = styled.h2`
   font-size: 1.5rem;
   margin: 0 0 0.3rem 0;
   font-family: inherit;
+  
+  @media (max-width: 700px) {
+    padding-top: 18px;
+  }
 `;
 
 const BookAuthor = styled.div`
