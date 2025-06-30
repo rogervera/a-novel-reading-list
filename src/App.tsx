@@ -219,6 +219,20 @@ const GoToTopSidebarItem = styled(SidebarItem)`
   margin-top: 48px;
 `;
 
+const Footer = styled.footer`
+  width: 100%;
+  text-align: center;
+  font-size: 0.95rem;
+  color: #fff;
+  background: rgba(24, 24, 24, 0.92);
+  padding: 18px 0 14px 0;
+  letter-spacing: 0.02em;
+  font-family: 'Special Elite', 'Courier New', Courier, monospace;
+  box-shadow: 0 -2px 12px rgba(60,40,10,0.08);
+  position: relative;
+  z-index: 2;
+`;
+
 const scrollToBook = (id: string) => {
   const el = document.getElementById(id);
   if (el) {
@@ -290,8 +304,12 @@ function App() {
                 </BookCard>
               ))}
           </BookList>
+          
         </MainContent>
       </AppContainer>
+      <Footer>
+        This site was created to share Jim's reading picks with the world. Happy reading.
+      </Footer>
     </>
   );
 }
