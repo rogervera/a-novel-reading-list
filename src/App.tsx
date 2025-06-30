@@ -95,9 +95,9 @@ const BookCard = styled.section`
   gap: 32px;
   font-family: inherit;
   max-width: 700px;
-  -webkit-mask-image: url('data:image/svg+xml;utf8,<svg width="100%25" height="100%25" viewBox="0 0 100 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0,5 Q5,0 10,5 T20,5 T30,5 T40,5 T50,5 T60,5 T70,5 T80,5 T90,5 T100,5 L100,95 Q95,100 90,95 T80,95 T70,95 T60,95 T50,95 T40,95 T30,95 T20,95 T10,95 T0,95 Z" fill="white"/></svg>');
+  -webkit-mask-image: url('data:image/svg+xml;utf8,<svg width="100%25" height="100%25" viewBox="0 0 100 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0,2 Q5,0 10,2 T20,2 T30,2 T40,2 T50,2 T60,2 T70,2 T80,2 T90,2 T100,2 L100,98 Q95,100 90,98 T80,98 T70,98 T60,98 T50,98 T40,98 T30,98 T20,98 T10,98 T0,98 Z" fill="white"/></svg>');
   -webkit-mask-size: 100% 100%;
-  mask-image: url('data:image/svg+xml;utf8,<svg width="100%25" height="100%25" viewBox="0 0 100 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0,5 Q5,0 10,5 T20,5 T30,5 T40,5 T50,5 T60,5 T70,5 T80,5 T90,5 T100,5 L100,95 Q95,100 90,95 T80,95 T70,95 T60,95 T50,95 T40,95 T30,95 T20,95 T10,95 T0,95 Z" fill="white"/></svg>');
+  mask-image: url('data:image/svg+xml;utf8,<svg width="100%25" height="100%25" viewBox="0 0 100 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0,2 Q5,0 10,2 T20,2 T30,2 T40,2 T50,2 T60,2 T70,2 T80,2 T90,2 T100,2 L100,98 Q95,100 90,98 T80,98 T70,98 T60,98 T50,98 T40,98 T30,98 T20,98 T10,98 T0,98 Z" fill="white"/></svg>');
   mask-size: 100% 100%;
   border: 1.5px solid #e6ddc4;
   box-shadow: 0 4px 18px 0 rgba(60,40,10,0.10), 0 1.5px 0 #e6ddc4 inset;
@@ -105,8 +105,10 @@ const BookCard = styled.section`
   @media (max-width: 700px) {
     flex-direction: column;
     align-items: center;
-    padding: 40px 12px 36px 12px;
+    padding: 96px 12px 88px 12px;
     gap: 20px;
+    -webkit-mask-image: url('data:image/svg+xml;utf8,<svg width="100%25" height="100%25" viewBox="0 0 100 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0,1 Q10,0 20,1 T40,1 T60,1 T80,1 T100,1 L100,99 Q90,100 80,99 T60,99 T40,99 T20,99 T0,99 Z" fill="white"/></svg>');
+    mask-image: url('data:image/svg+xml;utf8,<svg width="100%25" height="100%25" viewBox="0 0 100 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0,1 Q10,0 20,1 T40,1 T60,1 T80,1 T100,1 L100,99 Q90,100 80,99 T60,99 T40,99 T20,99 T0,99 Z" fill="white"/></svg>');
   }
 `;
 
