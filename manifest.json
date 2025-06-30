@@ -1,0 +1,25 @@
+{
+  "short_name": "A Novel Reading List",
+  "name": "A Novel Reading List by James J. Mihnerick",
+  "icons": [
+    {
+      "src": "logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "book-burgundy-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "book-burgundy-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
