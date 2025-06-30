@@ -187,6 +187,7 @@ const Quote = styled.div`
   margin-bottom: 2.2rem;
   font-style: italic;
   max-width: 700px;
+  line-height: 1.5em;
 `;
 
 const GoToTopSidebarItem = styled(SidebarItem)`
@@ -237,7 +238,7 @@ function App() {
           <Header>A Novel Reading List</Header>
           <SubHeader>by James J. Mihnerick (1939&#8209;2019)</SubHeader>
           <Quote>
-            "I read most of these books more than twenty years ago, but they are still fresh in my mind. This perhaps is as good a benchmark for literary greatness as any." - Jim
+            "I read most of these books more than twenty years ago, but they are still fresh in my mind. This perhaps is as good a benchmark for literary greatness as any."
           </Quote>
           <BookList>
             {books
