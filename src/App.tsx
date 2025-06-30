@@ -84,7 +84,7 @@ const BookList = styled.div`
 `;
 
 const BookCard = styled.section`
-  background: #f8f8f5;
+  background: #fdf6e3;
   color: #222;
   border-radius: 8px;
   box-shadow: 0 2px 12px rgba(0,0,0,0.08);
