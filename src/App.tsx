@@ -96,7 +96,7 @@ const BookCard = styled.section`
   color: #222;
   border-radius: 10px;
   box-shadow: 0 2px 12px rgba(0,0,0,0.08);
-  padding: 64px 32px 56px 32px;
+  padding: 72px 32px 56px 32px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -113,7 +113,7 @@ const BookCard = styled.section`
   @media (max-width: 950px) {
     flex-direction: column;
     align-items: center;
-    padding: 96px 12px 88px 12px;
+    padding: 56px 12px 64px 12px;
     gap: 20px;
     -webkit-mask-image: url('data:image/svg+xml;utf8,<svg width="100%25" height="100%25" viewBox="0 0 100 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0,1 Q10,0 20,1 T40,1 T60,1 T80,1 T100,1 L100,99 Q90,100 80,99 T60,99 T40,99 T20,99 T0,99 Z" fill="white"/></svg>');
     mask-image: url('data:image/svg+xml;utf8,<svg width="100%25" height="100%25" viewBox="0 0 100 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0,1 Q10,0 20,1 T40,1 T60,1 T80,1 T100,1 L100,99 Q90,100 80,99 T60,99 T40,99 T20,99 T0,99 Z" fill="white"/></svg>');
@@ -128,7 +128,7 @@ const CoverImage = styled.img`
   box-shadow: 0 32px 96px 0 rgba(60,40,10,0.45), 0 8px 48px 0 rgba(60,40,10,0.28), 0 1.5px 0 #e6ddc4 inset;
   background: #fff;
   @media (max-width: 950px) {
-    margin-bottom: 0;
+    margin-bottom: 12px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -143,7 +143,7 @@ const BookInfo = styled.div`
 
 const BookTitle = styled.h2`
   font-size: 1.5rem;
-  margin: 0 0 0.3rem 0;
+  margin: 0 0 0.8rem 0;
   font-family: inherit;
   
   @media (max-width: 950px) {
@@ -153,13 +153,12 @@ const BookTitle = styled.h2`
 
 const BookAuthor = styled.div`
   font-size: 1.1rem;
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.6rem;
   color: #444;
 `;
 
 const BookYear = styled.div`
   font-size: 1rem;
-  margin-bottom: 1.1rem;
   color: #666;
 `;
 
@@ -183,11 +182,11 @@ const StylizedCloseQuote = styled.span`
 
 const JimDescription = styled.div`
   font-size: 1.08rem;
-  margin-bottom: 1.2rem;
+  margin: 1.2em 0;
   color: #222;
   p {
     margin: 0;
-    line-height: 1.5em;
+    line-height: 1.75em;
     text-indent: 2em;
   }
 `;
@@ -274,7 +273,7 @@ function App() {
           </SidebarList>
         </Sidebar>
         <MainContent>
-          <Header>A Novel Reading List</Header>
+          <Header>A Novel Reading&nbsp;List</Header>
           <SubHeader>by James J. Mihnerick (1939&#8209;2019)</SubHeader>
           <Quote>
             "I read most of these books more than twenty years ago, but they are still fresh in my mind. This perhaps is as good a benchmark for literary greatness as any."
