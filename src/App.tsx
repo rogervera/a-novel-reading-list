@@ -167,8 +167,8 @@ const StylizedQuote = styled.span`
   font-size: 2.2rem;
   color: #b48a78;
   font-family: 'Special Elite', 'Courier New', Courier, monospace;
-  vertical-align: top;
-  line-height: 1;
+  vertical-align: text-bottom;
+  line-height: 0;
   margin-right: 0.18em;
 `;
 
@@ -176,8 +176,8 @@ const StylizedCloseQuote = styled.span`
   font-size: 2.2rem;
   color: #b48a78;
   font-family: 'Special Elite', 'Courier New', Courier, monospace;
-  vertical-align: bottom;
-  line-height: 1;
+  vertical-align: text-bottom;
+  line-height: 0;
   margin-left: 0.18em;
 `;
 
