@@ -84,7 +84,7 @@ export const books: Book[] = [
     title: 'Leaving Las Vegas',
     author: "John O'Brien",
     description: 'A novel about Ben Sanderson, an alcoholic screenwriter who moves to Las Vegas to drink himself to death, and his relationship with Sera, a prostitute.',
-    jim_description: "It's almost too much to believe that the young author wrote this story about love, sordid love, but love nonethe-less, while in his own death throes.",
+    jim_description: "It's almost too much to believe that the young author wrote this story about love, sordid love, but love nonetheless, while in his own death throes.",
     jim_order: 8,
     genre: 'Semi-autobiographical',
     published_year: 1990,
